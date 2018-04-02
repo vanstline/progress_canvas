@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.box {
+    position: relative;
+    height: 5rem;
+    background: rgb(0, 186, 255);
+}
+
+#canvas {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-left: -2rem;
+    width: 4rem;
+    height: 3rem;
+    background: rgb(0, 186, 255);
+}

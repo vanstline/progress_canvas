@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript">
+		function resize() {
+			var htmlEle = document.documentElement;
+			var htmlWidth = window.innerWidth;
+			htmlEle.style.fontSize = 100 * (htmlWidth / 750) + 'px'
+		} resize();
+	</script>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="box">
+        <canvas id="canvas">
+            您的浏览器不支持canvas, 请更换或升级您的浏览器!
+        </canvas>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js" charset="utf-8"></script>
+<script src="js/index.js" charset="utf-8"></script>
+
+</body>
+</html>
